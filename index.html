@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coffee Break</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Coffee Break</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Brewed Coffees</a>
+          <a class="dropdown-item" href="#">Flavored Coffees</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Iced Coffees</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us!</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Coming Soon</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- navbar -->
+<!-- landing page -->
+<div class="jumbotron">
+	<div id="landing-text" class="container">
+		  <h1 class="display-4">Have a Break!</h1>
+		  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		  <hr class="my-4">
+		  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		  <a class="btn btn-primary btn-sm btn-light" href="#" role="button">Learn more</a> 
+	 </div>	
+</div> <!-- jumbo -->
+<!-- landing page -->
+
+		<div class="container d-flex" > <!-- products -->
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top" src="brewed.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Brewed Coffee</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+		  		<img class="card-img-top" src="flavored.jpg" alt="Card image cap">
+		  		<div class="card-body">
+			    	<h5 class="card-title">Flavored</h5>
+			    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			   	 	<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+				</div>
+		  	<div class="card" style="width: 18rem;">
+		  		<img class="card-img-top" src="iced-coffee.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Iced Coffee</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			 </div>
+			 </div>
+		  	<div class="card" style="width: 18rem;">
+				 <img class="card-img-top" src="coffee-of-your-choice.jpg" alt="Card image cap">
+				 <div class="card-body">
+				 <h5 class="card-title">Your Choice!</h5>
+				 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				 <a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div><!-- products -->
+
+
+
+<!-- testimonials -->
+<!-- Section: Testimonials v.2 -->
+<div id="testimonial">
+<div class="row">
+	<section class="text-center my-5">
+
+	  <!-- Section heading -->
+	  <h2 class="h1-responsive font-weight-bold my-5">Testimonials</h2>
+
+	  <div class="wrapper-carousel-fix">
+	    <!-- Carousel Wrapper -->
+	    <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel"
+	      data-interval="false">
+	      <!--Slides-->
+	      <div class="carousel-inner" role="listbox">
+	        <!--First slide-->
+	        <div class="carousel-item active">
+	          <div class="testimonial">
+	            <!--Avatar-->
+	            <div class="avatar mx-auto mb-4">
+	              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle img-fluid"
+	                alt="First sample avatar image">
+	            </div>
+	            <!--Content-->
+	            <p>
+	              <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+	              eos
+	              id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+	              adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+	              sit, aspernatur praesentium iste impedit quidem dolor veniam.
+	            </p>
+	            <h4 class="font-weight-bold">Anna Deynah</h4>
+	            <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+	            <!--Review-->
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star-half-alt blue-text"> </i>
+	          </div>
+	        </div>
+	        <!--First slide-->
+	        <!--Second slide-->
+	        <div class="carousel-item">
+	          <div class="testimonial">
+	            <!--Avatar-->
+	            <div class="avatar mx-auto mb-4">
+	              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid"
+	                alt="Second sample avatar image">
+	            </div>
+	            <!--Content-->
+	            <p>
+	              <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+	              odit
+	              aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+	              porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+	              non numquam eius modi tempora incidunt ut labore. </p>
+	            <h4 class="font-weight-bold">Maria Kate</h4>
+	            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+	            <!--Review-->
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	          </div>
+	        </div>
+	        <!--Second slide-->
+	        <!--Third slide-->
+	        <div class="carousel-item">
+	          <div class="testimonial">
+	            <!--Avatar-->
+	            <div class="avatar mx-auto mb-4">
+	              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid"
+	                alt="Third sample avatar image">
+	            </div>
+	            <!--Content-->
+	            <p>
+	              <i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
+	              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+	              culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+	              error sit voluptatem accusantium doloremque laudantium.</p>
+	            <h4 class="font-weight-bold">John Doe</h4>
+	            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+	            <!--Review-->
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="fas fa-star blue-text"> </i>
+	            <i class="far fa-star blue-text"> </i>
+	          </div>
+	        </div>
+	        <!--Third slide-->
+	      </div>
+	      <!--Slides-->
+	      <!--Controls-->
+	      <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+	        data-slide="prev">
+	        <span class="icon-prev" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	      </a>
+	      <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+	        data-slide="next">
+	        <span class="icon-next" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	      </a>
+	      <!--Controls-->
+	    </div>
+	    <!-- Carousel Wrapper -->
+	  </div>
+	</section>
+	<!-- buy now -->
+	<div class="mailchimp mt-5">
+		<div class="container text-center">
+			<div class="row justify-content-center">
+			<div class="col-xl-7 col-lg-8">
+				<h3 class="mb-0">Visit us now &amp; enjoy your drink!</h3>
+				<p class="text-white-50">For Reservation: message us now!</p>
+			<div id="mc_embed_signup">
+				<form role="form" action="#" method="post" id="mc-embedded-message-form" name="mc-embedded-message-form" target="_blank" novalidate="novalidate">
+			<div class="input-group input-group-lg">
+				<input type="email" name="message" class="form-control border-0" id="mce-EMAIL" placeholder="Researve a Seat!">
+			<div class="input-group-append">
+				<button type="submit" name="message" id="mc-embedded-message" class="btn btn-light">Book</button>
+			</div>
+			</form>
+			</div>
+			<div class="text-center mt-4">
+				<p class="text-white-50 mb-4">or get updates on Twitter</p>
+				<a href="javascript:void(0)" onclick="if (!window.__cfRLUnblockHandlers) return false; window.open('https://twitter.com/intent/user?original_referer=&amp;region=screen_name&amp;screen_name=SBootstrap&amp;source=followbutton&amp;variant=1.1', 'twitter', 'toolbar=no, width=450, height=600'); return false;" class="btn btn-twitter btn-xl shadow"><i class="fab fa-twitter mr-2"></i> Follow @SBootstrap</a>
+			</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- buy now -->
+</div>
+</div>
+<!-- Section: Testimonials v.2 -->
+<!-- testimonials -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body, html{
+	height: 100%;
+	width: 100%
+}
+
+nav {
+	position: fixed;
+}
+
+.jumbotron {
+	background: url(Coffee-Break-bg.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #eee;
+	height: 100%;
+	vertical-align: 100%;
+}
+
+#landing-text {
+	margin-top: 200px;
+}
+
+.mailchimp {
+	width: 100%;
+    background-color: #3D2200;
+    background-size: cover;
+    background-image: url(/assets/img/overlay.svg),linear-gradient(45deg, #603A08 0%, #BA8E54 100%);
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
